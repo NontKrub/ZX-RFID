@@ -7,10 +7,10 @@ extern "C" {
 #include "driver/spi_master.h"
 #include "i2c-dev.h"
 
-#define RC522_DEFAULT_MISO                 (25)
-#define RC522_DEFAULT_MOSI                 (23)
-#define RC522_DEFAULT_SCK                  (19)
-#define RC522_DEFAULT_SDA                  (22)
+#define RC522_DEFAULT_MISO                 (19)
+#define RC522_DEFAULT_MOSI                 (18)
+#define RC522_DEFAULT_SCK                  (SCL0)
+#define RC522_DEFAULT_SDA                  (SDA0)
 #define RC522_DEFAULT_SPI_HOST             (VSPI_HOST)
 #define RC522_DEFAULT_SCAN_INTERVAL_MS     (125)
 #define RC522_DEFAULT_TACK_STACK_SIZE      (4 * 1024)
